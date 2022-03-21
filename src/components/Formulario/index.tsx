@@ -1,9 +1,10 @@
 import React from 'react';
 import Botao from '../Botao';
+import './style.scss';
 class Formulario extends React.Component {
     render(){ //Função obrigatória 
         return ( //A função render retorna:
-            <form action="">
+            <form className = "novaTarefa" action="">
                 <div>
                     <label htmlFor='tarefa' > 
                         Adicione um novo estudo
@@ -31,7 +32,9 @@ class Formulario extends React.Component {
                         />
                     </label>
                 </div>
+                <Botao/>
             </form>
+            
         )
     }
 }
