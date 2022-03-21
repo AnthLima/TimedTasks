@@ -1,10 +1,10 @@
 import React from 'react';
 import Botao from '../Botao';
-import './style.scss';
+import Style from './Formulario.module.scss';
 class Formulario extends React.Component {
     render(){ //Função obrigatória 
         return ( //A função render retorna:
-            <form className = "novaTarefa" action="">
+            <form className ={Style.novaTarefa}>
                 <div>
                     <label htmlFor='tarefa' > 
                         Adicione um novo estudo
