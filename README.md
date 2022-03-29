@@ -1,3 +1,5 @@
+# Introduction
+This is a project focused on learning in a simple and fast way, it is basically a to do of tasks with a timer, when adding a task it is possible to click on it and thus start a timer to complete it!
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
